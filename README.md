@@ -1,8 +1,8 @@
-# maplibregljs-amazon-location-service-starter
+# maplibregljs-amazon-location-service-route-calculators-starter
 
 ![README02](img/README02.png)
 
-Start MapLibre GL JS and Amazon Location Service easily.  
+Easily start routing with MapLibre GL JS and Amazon Location Service.  
 - [MapLibre GL JS v4.0.2](https://maplibre.org)  
 - [Amazon Location Service](https://aws.amazon.com/location)  
 - node v20.0.0
@@ -12,7 +12,6 @@ Start MapLibre GL JS and Amazon Location Service easily.
 
 ## blog
 
-[Building a Map Application with MapLibre GL JS and Amazon Location Service API key functionality](https://dev.to/aws-heroes/building-a-map-application-with-maplibre-gl-js-and-amazon-location-service-api-key-functionality-29db)
 
 <br>
 
@@ -22,17 +21,20 @@ Start MapLibre GL JS and Amazon Location Service easily.
 
 <br>
 
-Create Amazon Location Service "map" and "API key"
+Create Amazon Location Service "map", "API key(map)", "routing" and "API key(routing)"
 
-[API key creation (map)](https://memo.dayjournal.dev/memo/amazon-location-service-004)
+- [API key creation (map)](https://memo.dayjournal.dev/memo/amazon-location-service-004)  
+- [API key creation (routing)](https://memo.dayjournal.dev/memo/amazon-location-service-006)  
 
 <br>
 
-Set "region", "API key" and "map name" in env file
+Set "region", "API key(map)", "map name", "API key(routing)" and "routing name" in env file
 ```env
 VITE_REGION = xxxxx
 VITE_MAP_API_KEY = v1.public.xxxxx
 VITE_MAP_NAME = xxxxx
+VITE_ROUTE_API_KEY = v1.public.xxxxx
+VITE_ROUTE_NAME = xxxxx
 ```
 
 <br>
@@ -68,7 +70,7 @@ npm run dev
 ## License
 MIT
 
-Copyright (c) 2023-2024 MapLibre User Group Japan
+Copyright (c) 2024 MapLibre User Group Japan
 
 <br>
 
@@ -80,11 +82,11 @@ Copyright (c) 2023-2024 MapLibre User Group Japan
 
 <br>
 
-# MapLibreGLJS & Amazon Location Service スターター
+# MapLibreGLJS & Amazon Location Service & ルーティング スターター
 
 ![README02](img/README02.png)
 
-MapLibre GL JSとAmazon Location Serviceを手軽に始める
+MapLibre GL JSとAmazon Location Serviceでルーティングを手軽に始める
 - [MapLibre GL JS v4.0.2](https://maplibre.org)  
 - [Amazon Location Service](https://aws.amazon.com/location)  
 - node v20.0.0
@@ -94,8 +96,6 @@ MapLibre GL JSとAmazon Location Serviceを手軽に始める
 
 ## blog
 
-[MapLibre GL JSとAmazon Location ServiceのAPIキー機能で開発環境を構築してみた](https://www.memo.dayjournal.dev/memo/try-103)
-
 <br>
 
 ##  使用方法
@@ -104,17 +104,20 @@ MapLibre GL JSとAmazon Location Serviceを手軽に始める
 
 <br>
 
-Amazon Location Serviceのマップ・APIキーを作成
+Amazon Location Serviceのマップ・APIキー(マップ)・ルーティング・APIキー(ルーティング)を作成
 
-[APIキー作成(マップ)](https://memo.dayjournal.dev/memo/amazon-location-service-004)
+- [APIキー作成(マップ)](https://memo.dayjournal.dev/memo/amazon-location-service-004)  
+- [APIキー作成(ルーティング)](https://memo.dayjournal.dev/memo/amazon-location-service-006)  
 
 <br>
 
-リージョン・APIキー・マップ名をenvファイルに設定
+リージョン・APIキー(マップ)・マップ名・APIキー(ルーティング)・ルーティング名をenvファイルに設定
 ```env
 VITE_REGION = xxxxx
 VITE_MAP_API_KEY = v1.public.xxxxx
 VITE_MAP_NAME = xxxxx
+VITE_ROUTE_API_KEY = v1.public.xxxxx
+VITE_ROUTE_NAME = xxxxx
 ```
 
 <br>
@@ -151,6 +154,6 @@ npm run dev
 ## ライセンス
 MIT
 
-Copyright (c) 2023-2024 MapLibre User Group Japan
+Copyright (c) 2024 MapLibre User Group Japan
 
 <br>

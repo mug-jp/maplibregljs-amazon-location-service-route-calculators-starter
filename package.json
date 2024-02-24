@@ -1,5 +1,5 @@
 {
-  "name": "maplibregljs-amazon-location-service-starter",
+  "name": "maplibregljs-amazon-location-service-route-calculators-starter",
   "version": "4.0.2",
   "description": "",
   "scripts": {
@@ -15,6 +15,9 @@
     "vite": "^5.1.4"
   },
   "dependencies": {
+    "@aws-sdk/client-location": "^3.521.0",
+    "@aws/amazon-location-utilities-auth-helper": "^1.0.4",
+    "@aws/amazon-location-utilities-datatypes": "^1.0.5",
     "maplibre-gl": "^4.0.2"
   }
 }
