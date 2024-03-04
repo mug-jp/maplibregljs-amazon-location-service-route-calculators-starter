@@ -12,6 +12,7 @@ Easily start routing with MapLibre GL JS and Amazon Location Service.
 
 ## blog
 
+[Building a Route Search Function with Amazon Location SDK and API Key Function](https://dev.to/aws-heroes/building-a-route-search-function-with-amazon-location-sdk-and-api-key-function-42im)
 
 <br>
 
@@ -95,6 +96,8 @@ MapLibre GL JSとAmazon Location Serviceでルーティングを手軽に始め�
 <br>
 
 ## blog
+
+[Amazon Location SDKとAPIキーでルート検索機能を構築](https://zenn.dev/mierune/articles/try-109-amazon-location-service)
 
 <br>
 
